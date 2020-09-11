@@ -1,0 +1,48 @@
+
+pack.png
+size: 128,32
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+asteroid0
+  rotate: false
+  xy: 2, 5
+  size: 30, 24
+  orig: 30, 24
+  offset: 0, 0
+  index: -1
+asteroid1
+  rotate: false
+  xy: 82, 16
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+asteroid2
+  rotate: false
+  xy: 99, 21
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+bullet
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+enemy
+  rotate: false
+  xy: 62, 18
+  size: 18, 11
+  orig: 18, 11
+  offset: 0, 0
+  index: -1
+player
+  rotate: false
+  xy: 34, 12
+  size: 26, 17
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
