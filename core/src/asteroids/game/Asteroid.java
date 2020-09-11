@@ -78,7 +78,7 @@ public class Asteroid extends Image implements CircleCollider {
     }
 
     public Vector2 getColliderCenter() {
-        return localToStageCoordinates(new Vector2(0, 0));
+        return localToStageCoordinates(new Vector2(getColliderRadius(), getColliderRadius()));
     }
 
     public void explode() {
